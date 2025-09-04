@@ -22,4 +22,9 @@ class AppServiceProvider extends ServiceProvider
     {
         Vite::prefetch(concurrency: 3);
     }
+
+    protected $policies = [
+    // هنا تسجل السياسات
+];
+
 }
